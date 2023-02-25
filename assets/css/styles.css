@@ -1,11 +1,17 @@
 .parallax {
-  /*background-image: url("img_parallax.jpg");*/
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
+  background-image: url("https://i.gifer.com/DgJM.gif");
+  height: 1200px;
+  margin-top: 300px;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+}
+
+
+@media (max-width: 768px) {
+  .parallax {
+    height: 300px; /* Adjust the height for mobile devices */
+    background-attachment: scroll; /* Use scroll instead of fixed on mobile devices */
+  }
 }
 
 body {
