@@ -1,16 +1,18 @@
 .parallax {
   /*background-image: url("img_parallax.jpg");*/
-  height: 500px;
-  background-attachment: fixed;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .parallax {
-    height: 300px; /* Adjust the height for mobile devices */
+    height: 600px; /* Adjust the height for mobile devices */
     background-attachment: scroll; /* Use scroll instead of fixed on mobile devices */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -35,6 +37,6 @@ body {
   position: sticky;
   left: 50%;
   width: 100%;
-  height: 120px;
+  height: 600px;
 }
 

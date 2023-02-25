@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	AOS.init({ });
+	AOS.init({ disable: 'mobile' });
 
 (function(){
 
@@ -14,10 +14,11 @@ $(document).ready(function(){
 
 		bg.css({
 			backgroundImage: el.css('background-image'),
-			backgroundSize: 'contain',
+			backgroundSize: 'cover',
 			backgroundPosition: 'center',
+			backgroundRepeat:'no-repeat',
 			position: 'absolute',
-			height:'100%',
+			height:'50%',
 			width:'100%',
 			top:0, left:0,
 			zIndex: -100
