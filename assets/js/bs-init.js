@@ -14,11 +14,10 @@ $(document).ready(function(){
 
 		bg.css({
 			backgroundImage: el.css('background-image'),
-			backgroundSize: 'cover',
+			backgroundSize: 'contain',
 			backgroundPosition: 'center',
-			backgroundRepeat:'no-repeat',
 			position: 'absolute',
-			height:'50%',
+			height:'100%',
 			width:'100%',
 			top:0, left:0,
 			zIndex: -100
