@@ -4,7 +4,14 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    height: 300px; /* Adjust the height for mobile devices */
+    background-attachment: scroll; /* Use scroll instead of fixed on mobile devices */
+  }
 }
 
 body {
